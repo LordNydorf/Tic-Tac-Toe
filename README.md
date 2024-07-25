@@ -1,2 +1,3 @@
 # Tic-Tac-Toe
 Basic Tic Tac Toe game using Kotlin
+Made by Rohit Krishnan
