@@ -1,5 +1,3 @@
-package com.home.tictactoe
-
 fun printBoard() {
     println("-------------")
     for (i in 0..2) {

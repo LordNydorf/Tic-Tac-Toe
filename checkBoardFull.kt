@@ -1,5 +1,3 @@
-package com.home.tictactoe
-
 fun checkBoardFull(): Boolean {
     var boardFull = true
     for (i in 0..2){

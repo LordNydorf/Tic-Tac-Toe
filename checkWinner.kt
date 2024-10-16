@@ -1,8 +1,6 @@
-package com.home.tictactoe
-
 fun checkWinner(player: Boolean): Boolean {
     var won = false
-    var checkSymbol: String = if (player) "X" else "O"
+    val checkSymbol: String = if (player) "X" else "O"
     for (i in 0..2) {
         //Horizontal Wins
         if (board[i][0] == checkSymbol && board[i][1] == checkSymbol && board[i][2] == checkSymbol) {
